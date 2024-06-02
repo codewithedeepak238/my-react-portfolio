@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {socialMediaUrl } from "../Details";
+import logo from "../assets/logomain.png"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-        <i class="fa-sharp fa-solid fa-face-awesome"></i>
+        <img src={logo} alt="logo" className="w-[50px] md:w-[80px]"/>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
