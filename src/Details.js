@@ -3,29 +3,23 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -35,42 +29,43 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Deepak Saraswat",
+  tagline: "I'm a Frontend Developer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Based in Aligarh, India, I am a freelance frontend developer.
+  Very skilled in creating unique websites and designing them.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/deepak-saraswat-b87820277/",
+  github: "https://github.com/codewithedeepak238",
   twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/_deblacklover?igsh=NnVmaTY0dWgyOHlk",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `DMI SYSTEMS PVT LTD`,
+    Location: "Aligarh, UP",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "March 2023 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Frontend Web Developer",
+    Company: `Freelancer`,
+    Location: "Aligarh, UP",
+    Type: "Full Time",
+    Duration: "Sep 2023 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Web Developer Intern",
+    Company: `Godani Export Pvt Ltd`,
+    Location: "Aligarh, UP",
+    Type: "Full Time",
+    Duration: "Jan 2023 - Feb 2024",
   },
 ];
 
@@ -78,17 +73,17 @@ export const workDetails = [
 export const eduDetails = [
   {
     Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Company: "Geekster, Udemy, YouTube, Google, Medium",
     Location: "Online",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2023 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Bachelor of Engineering in Computer Science",
+    Company: `Vivekanand College of Technology & Management`,
+    Location: "Aligarh",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Aug 2020 - June 2023",
   },
 ];
 
@@ -98,13 +93,10 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
-  redux: redux,
-  sass: sass,
   tailwind: tailwind,
   bootstrap: bootstrap,
   vscode: vscode,
   postman: postman,
-  npm: npm,
   git: git,
   github: github,
   figma: figma,
@@ -113,63 +105,36 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Lens Corp",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "HTML/CSS, JavaScript, React, Tailwind",
+    previewLink: "https://lenscorp.netlify.app/",
+    githubLink: "https://github.com/codewithedeepak238/LensCorp/tree/master",
   },
   {
-    title: "Project title 2",
+    title: "Godani Export Pvt Ltd",
     image: projectImage2,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://www.godaniexport.com/",
+    githubLink: "https://www.godaniexport.com/",
   },
   {
-    title: "Project title 3",
+    title: "e-Commerce React App",
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    techstack: "HTML/CSS, JavaScript, React, Tailwind",
+    previewLink: "https://github.com/codewithedeepak238/e-Commerce-React-App/tree/main",
+    githubLink: "https://github.com/codewithedeepak238/e-Commerce-React-App/tree/main",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "deepaksaraswat238@gmail.com",
+  phone: "+91 79 068 35811",
 };
