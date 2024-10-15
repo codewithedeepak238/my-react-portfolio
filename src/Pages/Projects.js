@@ -16,7 +16,6 @@ function Projects() {
                 <Project
                   title={title}
                   image={image}
-                  description={description}
                   techstack={techstack}
                   previewLink={previewLink}
                   githubLink={githubLink}

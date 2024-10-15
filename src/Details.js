@@ -16,10 +16,15 @@ import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import nodejs from "./assets/techstack/nodejs.png";
+import express from "./assets/techstack/Expressjs.png";
+import mongodb from "./assets/techstack/monogdb.png";
+
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage4 from "./assets/projects/kintelai.jpg";
 
 // Logos
 export const logos = {
@@ -100,6 +105,9 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  mongodb:mongodb,
+  nodejs:nodejs,
+  express:express
 };
 
 // Enter your Project Details here
@@ -121,6 +129,15 @@ project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://www.godaniexport.com/",
     githubLink: "https://www.godaniexport.com/",
+  },
+  {
+    title: "Kintel.ai",
+    image: projectImage4,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript, React, NodeJs, ExpressJs, MongoDB",
+    previewLink: "https://kintelai.vercel.app/",
+    githubLink: "https://github.com/codewithedeepak238/ai-image-generator-frontend",
   },
   {
     title: "e-Commerce React App",
