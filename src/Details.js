@@ -56,21 +56,14 @@ export const workDetails = [
     Company: `DMI SYSTEMS PVT LTD`,
     Location: "Aligarh, UP",
     Type: "Full Time",
-    Duration: "March 2023 - Present",
-  },
-  {
-    Position: "Frontend Web Developer",
-    Company: `Freelancer`,
-    Location: "Aligarh, UP",
-    Type: "Full Time",
-    Duration: "Sep 2023 - Present",
+    Duration: "Oct 2023 - Present",
   },
   {
     Position: "Web Developer Intern",
     Company: `Godani Export Pvt Ltd`,
     Location: "Aligarh, UP",
     Type: "Full Time",
-    Duration: "Jan 2023 - Feb 2024",
+    Duration: "Jan 2022 - Feb 2023",
   },
 ];
 
