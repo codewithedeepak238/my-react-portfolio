@@ -7,9 +7,13 @@ function Technologies() {
     css,
     js,
     react,
+    nextjs,
+    reactNative,
     tailwind,
     bootstrap,
     vscode,
+    shopify,
+    wordpress,
     git,
     github,
     postman,
@@ -33,11 +37,15 @@ function Technologies() {
         <img src={css} title="CSS" alt="CSS" />
         <img src={js} title="JavaScript" alt="JavaScript" />
         <img src={react} title="React" alt="React" />
+        <img src={nextjs} title="NextJS" alt="NextJS" />
+        <img src={reactNative} title="ReactNative" alt="ReactNative" />
         <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
         <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
         <img src={nodejs} title="Nodejs" alt="Nodejs" />
         <img src={express} title="ExpressJs" alt="ExpressJs" />
         <img src={mongodb} title="MongoDB" alt="MongoDB" />
+        <img src={shopify} title="Shopify" alt="Shopify" />
+        <img src={wordpress} title="Wordpress" alt="Wordpress" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

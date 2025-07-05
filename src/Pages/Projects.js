@@ -18,7 +18,6 @@ function Projects() {
                   image={image}
                   techstack={techstack}
                   previewLink={previewLink}
-                  githubLink={githubLink}
                 />
               )
             )
